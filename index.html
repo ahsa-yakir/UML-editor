@@ -1,0 +1,31 @@
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<head>
+    <meta http-equiv='content-type' content='text/html; charset=UTF-8' />
+    <title>Object Diagram Editor</title>
+    <link href='index.css' rel='stylesheet' type='text/css' />
+    <script src='./editor/controller.js'></script>
+    <script src='./framework/graph.js'></script>
+    <script src='./framework/lineedge.js'></script>
+    <script src='./editor/curvedlineedge.js'></script>
+    <script src='./framework/point.js'></script>
+    <script src='./framework/nvpair.js'></script>
+    <script src='./framework/note.js'></script>
+    <script src="./framework/toolbar.js"></script>
+    <script src='./framework/objects.js'></script>
+    <script src="./framework/propertysheet.js"></script>
+    <script src='./editor/helper.js'></script>
+    <script src='./editor/arrowheads.js'></script>
+</head>
+
+<body>
+
+    <div id="toolbarDiv"></div>
+    <div id="graphDiv" style="position: relative;">
+        <div id="nodeContainer" class="noselect" style="left:0;"></div>
+        <canvas id="graphPanel" style=" left:0;"></canvas>
+    </div>
+    <div id="propertySheetWrapper" style="position: relative; height: auto;"></div>
+</body>
+
+</html>

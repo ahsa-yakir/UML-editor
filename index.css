@@ -1,0 +1,158 @@
+/* #graphpanel {
+    border: solid black thin;
+} */
+
+.noselect {
+    user-select: none;
+    /*disable selection of text*/
+}
+
+#toolbarDiv {
+    border-bottom: solid black thin;
+    border-top: 0px;
+    background-color: lightgray;
+    padding: 10px;
+    height: auto;
+}
+
+button {
+    width: 50;
+    height: 50;
+    z-index: 3;
+    margin-left: 3;
+    outline: none;
+}
+
+#canvasbutton {
+    width: 50;
+    height: 50;
+    margin-left: 3;
+}
+
+table {
+    /* border-radius: 10px; */
+    border: solid black thin;
+    /* border:1px solid black; */
+    border-collapse: collapse;
+    cursor:default;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    font-family: system-ui;
+    text-align: center
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-size: 30px 30px;
+    background-image: linear-gradient(to right, #f2e5f2 1px, transparent 1px), linear-gradient(to bottom, #f2e5f2 1px, transparent 1px);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #ffffff;
+    border: solid black thin;
+}
+
+#propertySheetWrapper {
+    background-color: lightgrey;
+    margin: 0;
+    display: inline-flex;
+    padding: .5%;
+    align-items: flex-end;
+    flex-direction: row;
+    width: 99%;
+
+}
+
+.input {
+    margin: 4px;
+    width: 2em;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+.prop {
+    display: inline;
+    width: max-content;
+    padding: 1em 0 1em 0;
+    margin: auto .5em auto .5em;
+
+}
+
+.label {
+    width: auto;
+    margin: auto .3em;
+    background-color: 'orange';
+    display: inline;
+}
+
+.apply {
+    width: 50;
+    height: 30;
+    margin: 0 15px 0 5px;
+    border-radius: .3em;
+    order: 1;
+    background-color: white;
+    outline: none;
+}
+
+.apply:active {
+    background-color: white;
+    color: orange;
+}
+
+#graphDiv {
+    margin: 0;
+}
+
+#graphPanel {
+    position: absolute;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1em;
+   
+    /*background-color: #474d56;*/
+}
+
+#nodeContainer {
+    position: absolute;
+    cursor:default;
+    /*border-style: solid;
+    border-color: black;
+    background-color: #474d56;
+}*/
+}
+
+form {
+    margin: 0;
+    height: fit-content;
+    margin-block-end: 0;
+    display: inline;
+    order: 2;
+    font-family: system-ui;
+    font-size: .8em;
+    padding-bottom: 1px;
+
+}
+
+input[type=text] {
+    width: 9em;
+}
+
+#dropdown {
+    width: 7em;
+}
